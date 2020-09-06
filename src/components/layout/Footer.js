@@ -5,6 +5,7 @@ import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
 
+
 const propTypes = {
   topOuterDivider: PropTypes.bool,
   topDivider: PropTypes.bool
@@ -45,7 +46,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+            <div className="footer-copyright">&copy;<a href="#"> Digitally Inclined</a>. All right reserved</div>
           </div>
         </div>
       </div>
